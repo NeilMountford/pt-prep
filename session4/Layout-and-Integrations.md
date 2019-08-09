@@ -37,6 +37,32 @@ You can also add colour gradients to the background by replacing the background 
 Try combining the two like this:
 `background: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png) no-repeat 99% center,linear-gradient(to bottom, yellow, #dddd00 50%, orange);`
 
+## Trying out layouts
+
+Opening the layout-example/index.html file in a browser should give you a page with basic styling but no layout. You need to implement a new layout: 
+
+1. To display the navigation items in a row, with an equal amount of space between the items.
+2. The navigation bar should scroll with the content and then become stuck at the top of the viewport when it reaches it.
+3. The image that is inside the article should have text wrapped around it.
+4. The article and aside elements should display as a two column layout. The columns should be a flexible size so that if the browser window shrinks smaller the columns become narrower.
+5. The photographs should display as a two column grid with a 1 pixel gap between the images.
+
+You will not need to edit the HTML in order to achieve this layout and the techniques you should use are:
+
+- Positioning
+- Float
+- Flexbox
+- CSS Grid Layout
+
+There are a few ways in which you could achieve some of these tasks, and there often isn’t a single right or wrong way to do things. Try a few different approaches and see which works best.
+
+For more help try these links:
+
+- https://www.w3schools.com/csS/css3_flexbox.asp
+- https://www.w3schools.com/Css/css_navbar.asp
+- https://www.w3schools.com/csS/css_grid.asp
+
+
 # Integrate
 ## YouTube
 
