@@ -1,3 +1,4 @@
+
 # Session 5 - Layout, Themes, and Widgets
 
 During this session we're going to make the blog more interactive, and look at how you can start adding complex layouts.
@@ -8,44 +9,6 @@ During this session we're going to make the blog more interactive, and look at h
 Lets start with adding some interactive widgets to your blog. Choose one widget that makes sense for your blog. We've chosen two widgets that make sense for most blogs and are easy to implement below.
 
 Bootstrap has a large library of additional widgets available. See [Bootstrap components documentation page](https://getbootstrap.com/docs/4.3/components).
-
-+ **Add a popup message (toast)**
-
-	Add the following HTML that represents the pop-up message inside your `body` tag:-
-	```html
-	<div aria-live="polite" aria-atomic="true" style="position: absolute; top: 0; right: 0; min-height: 200px; width: 300px; z-index: 9999">
-	  <div class="toast" style="position: absolute; top: 0; right: 0;" data-autohide="false">
-		<div class="toast-header">
-		  <div class="rounded mr-2" alt="">&nbsp;</div>
-		  <strong class="mr-auto">Bootstrap</strong>
-		  <small>11 mins ago</small>
-		  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		  </button>
-		</div>
-		<div class="toast-body">
-		  Hello, world! This is a toast message.
-		</div>
-	  </div>
-	</div>
-	```
-
-	Add some javascript to load the `toast` plugin. This particular script tells us to make all `div` tags with the class `toast` to become toast messages using the plugin:-
-
-	```js
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js>
-	</script>
-	<script type="text/javascript">
-		function showToast() {
-			 $('.toast').toast('show');
-		}
-	</script>
-	```
-	And tell your page to show it either when the page loads or when you click a button:-
-	```html
-	  <body onload="showToast()"> or <button onclick="showToast(); return false;"> 
-	```
-	Have a think about how you could use this to give your users feedback.
 
 + **Add an image slideshow (carousel)**
 
@@ -87,10 +50,49 @@ Bootstrap has a large library of additional widgets available. See [Bootstrap co
 	</div>
 	```
 	Note: Bootstrap will automatically load and animate the slideshow and you don't need to add any additional javascript.
+	
+
++ **Add a popup message (toast)**
+
+	Add the following HTML that represents the pop-up message inside your `body` tag:-
+	```html
+	<div aria-live="polite" aria-atomic="true" style="position: absolute; top: 0; right: 0; min-height: 200px; width: 300px; z-index: 9999">
+	  <div class="toast" style="position: absolute; top: 0; right: 0;" data-autohide="false">
+		<div class="toast-header">
+		  <div class="rounded mr-2" alt="">&nbsp;</div>
+		  <strong class="mr-auto">Bootstrap</strong>
+		  <small>11 mins ago</small>
+		  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="toast-body">
+		  Hello, world! This is a toast message.
+		</div>
+	  </div>
+	</div>
+	```
+
+	Add some javascript to load the `toast` plugin. This particular script tells us to make all `div` tags with the class `toast` to become toast messages using the plugin:-
+
+	```js
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js>
+	</script>
+	<script type="text/javascript">
+		function showToast() {
+			 $('.toast').toast('show');
+		}
+	</script>
+	```
+	And tell your page to show it either when the page loads or when you click a button:-
+	```html
+	  <body onload="showToast()"> or <button onclick="showToast(); return false;"> 
+	```
+	Have a think about how you could use this to give your users feedback.
 
 ## 2. Layout
 
-We know some basics about CSS layout, but we know that its really difficult to design this ourselves. Bootstrap makes building complicated layouts easier using grids (the grid layout system is a huge area to understand, and you can read up more about it at [Bootstrap Grid Layout Documentation](https://getbootstrap.com/docs/4.3/layout/grid/).) 
+We know some manual CSS layout, but we know that its really difficult to design this ourselves. Bootstrap makes building complicated layouts easier using grids (the grid layout system is a huge area to understand, and you can read up more about it at [Bootstrap Grid Layout Documentation](https://getbootstrap.com/docs/4.3/layout/grid/).) 
 
 ### Classic Table Example
 Bootstrap's grid layout uses something like a `table` like below, to build its layout. 
@@ -132,7 +134,7 @@ So armed with this information lets copy our HTML to  make a two column layout :
 
 We don't always want to build our layouts from scratch as this is time consuming and we can make mistakes. A better idea is to base our design off of a pre-built theme and only customize the bits we care about.
 
-We've provided some themes for you to play about with. ==Please don't remove the copyright notices== as they're provided by third parties under this condition.
+We've provided some themes for you to play about with. ==Please don't remove the copyright notices== as they're provided by third parties under this condition. You can get these themes by downloading the [themes zip file](https://princestrustcontent.blob.core.windows.net/coursecontent/Themes.zip?sv=2018-03-28&ss=b&srt=o&sp=r&se=2019-10-01T19:09:49Z&st=2019-08-13T11:09:49Z&spr=https&sig=4RIp/oijkrcaTN386XUa4tJ38TIj1/TPNeTf6TkXwCw=).
 
 ### The themes
 
@@ -140,7 +142,7 @@ We've provided some themes for you to play about with. ==Please don't remove the
 	* **Opium** - Vespa inspired personal blog theme with a top menu. Focus on the text.
 	* **Libro** - Fashion blog with fresh design and a grid of pictures. Menu pops up.
 	* **Original** - Simple party themed blog design with lots of pictures. Top vertical menu.
-	* **World** - Basic blog theme with animation and large hero images.
+	* **World** - Standard blog theme with animation and large hero images.
 
 
 * More complex designs
