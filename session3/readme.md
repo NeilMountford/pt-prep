@@ -1,8 +1,8 @@
 # CSS Stylings
 
-Try each of the the following styles in your blog css file (TBC)
+Try each of the the following styles in your blog css file
 
-## Text styles
+## 1. Text styles
 
 **color**
 
@@ -57,16 +57,18 @@ You can use font stacks to specify fallbacks if your font is not available:
 
 **line-height**
 
-## List styles
+## 2. List styles
 
-list-style-type: Sets the type of bullets to use for the list, for example, square or circle bullets for an unordered list, or numbers, letters or roman numerals for an ordered list.
-list-style-position: Sets whether the bullets appear inside the list items, or outside them before the start of each item.
-list-style-image: Allows you to use a custom image for the bullet, rather than a simple square or circle.
+**list-style-type**: Sets the type of bullets to use for the list, for example, square or circle bullets for an unordered list, or numbers, letters or roman numerals for an ordered list.
+
+**list-style-position**: Sets whether the bullets appear inside the list items, or outside them before the start of each item.
+
+**list-style-image**: Allows you to use a custom image for the bullet, rather than a simple square or circle.
 
 See here for a list of different list styles to try: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type
 
 
-## Link styles
+## 3. Link styles
 
 `<p><a href="#">A simple link</a></p>`
 
@@ -108,7 +110,7 @@ a:active {
 }
 ```
 
-## Selectors
+## 4. Selectors
 
 In the these examples you wil notice that we used some different selectors. Here are the main types of selector you will use. Try them out in your project:
 
