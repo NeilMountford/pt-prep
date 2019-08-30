@@ -166,13 +166,4 @@ The 'body' tag basically tells the computer that we're starting the part of the 
 
 ## What now?
 
-If you've got this far then you're doing great!  Why don't you try the following tags and see what they do!
-
-```HTML
-<hr/>
-<blockquote>A quote</blockquote>
-<nav>You are here!</nav>
-<aside>This is an aside</aside>
-```
-
-If you've got all that down then feel free to browse here https://developer.mozilla.org/en-US/docs/Web/HTML/Element each tag you click shows you a short sample of the HTML for a tag and how it looks in your browser which you can play with yourself!
+If you've got this far then you're doing great! Feel free to browse here https://developer.mozilla.org/en-US/docs/Web/HTML/Element each tag you click shows you a short sample of the HTML for a tag and how it looks in your browser which you can play with yourself!
