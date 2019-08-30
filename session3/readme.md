@@ -108,6 +108,8 @@ Now try setting the following attributes against the `p` tags and see what they 
 
 ## 2. List styles
 
+These styles apply to the `ul` and `ol` tags, so don't put them in the `p` blocks, ask one of the instructors if you have any problems with this.
+
 **list-style-type**: Sets the type of bullets to use for the list, for example, square or circle bullets for an unordered list, or numbers, letters or roman numerals for an ordered list.
 
 **list-style-position**: Sets whether the bullets appear inside the list items, or outside them before the start of each item.
