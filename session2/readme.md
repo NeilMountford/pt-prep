@@ -23,9 +23,8 @@ Assuming you don't want your entire document to be emphasized then you need to h
 ###  Try it out!
 
 1. Visit https://jsfiddle.net in your browser.
-2. (Optional) Click settings in the top right corner and in the 'Editor layout' section choose 'Tabs (rows)'  
-3. Paste the contents of first-blog-post.html into the HTML pane
-4. Press Run
+2. Paste the contents of first-blog-post.html into the HTML pane
+3. Press Run
 
 You should see the text 'ENTER THE TEXT AND HTML FOR YOUR BLOG POST HERE' appear in the results pane.  Find this text in the HTML pane and you will see it sits between `<body>` and `</body>`, all the text you enter in this exercise will go in this section.
 
