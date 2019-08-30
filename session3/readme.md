@@ -76,10 +76,9 @@ Look at the definition of CSS at the top of the page:
  - The attribute you want to set is `font-size`
  - The value we're setting is `20px`
 
-
+If you get stuck then you can look at the solution at the bottom of this file or just ask for help! : )
 
 Note: You don't have to include the p { } but every time you can just put the font-size line below something else is another p { } block.
-</details>
 
 Now try setting the following attributes against the `p` tags and see what they do.  The attribute name is in bold and the possible values are in brackets.  If you get stuck then ask one of the instructors for help!
 
