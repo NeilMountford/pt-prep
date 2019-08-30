@@ -155,7 +155,7 @@ a:active {
 
 ## 4. Selectors
 
-In the these examples you wil notice that we used some different selectors. Here are the main types of selector you will use. Try them out in your project:
+In the these examples you will notice that we used some different selectors. Here are the main types of selector you will use. Try them out in your project:
 
 **Type selectors** 
 
