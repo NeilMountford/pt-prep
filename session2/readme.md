@@ -27,7 +27,7 @@ Assuming you don't want your entire document to be emphasized then you need to h
 3. Paste the contents of first-blog-post.html into the HTML pane
 4. Press Run
 
-You should see the text 'ENTER THE TEXT AND HTML FOR YOUR BLOG POST HERE' appear in the results pane.  Find this text in the HTML pane and you will see it sits between <body> and </body>, all the text you enter in this exercise will go in this section.
+You should see the text 'ENTER THE TEXT AND HTML FOR YOUR BLOG POST HERE' appear in the results pane.  Find this text in the HTML pane and you will see it sits between `<body>` and `</body>`, all the text you enter in this exercise will go in this section.
 
 Try entering the text below into the HTML pane
 
@@ -49,7 +49,7 @@ This text is normal <strong>This text is strong,<em>This text is strong and emph
 
 ## Why is all my text stuck together?
 
-You may notice that if you've got more than one piece of text, they're all stuck together.  Let's see if we can fix that. Remove all the text between the body tags (i.e. all the text between <body> and </body> in the HTML pane) and replace it with the following:
+You may notice that if you've got more than one piece of text, they're all stuck together.  Let's see if we can fix that. Remove all the text between the body tags (i.e. all the text between `<body>` and `</body>` in the HTML pane) and replace it with the following:
 
 ```HTML
 This is line 1
