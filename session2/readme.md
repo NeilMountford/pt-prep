@@ -56,8 +56,6 @@ This is line 1
 This is line 2
 ```
 
-Notice that it doesn't respect the line breaks we've put in there.  Now make your browser window smaller until it becomes very narrow.  You will see that when it gets very small it separates the two lines automatically for you.
-
 Now try this
 
 ```HTML
