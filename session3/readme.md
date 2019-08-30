@@ -1,35 +1,6 @@
 # CSS Stylings
 
-## 0. Before you start
-
-To get started:
-1. Open up https://jsfiddle.net 
-2. Paste the contents of blog_example_with_themes.html into the HTML pane and press run
-3. Paste the contents of style.css into the CSS pane and press run again
-
-Hopefully you noticed what a big difference adding the styles made to how the page looked!  Have a look and see if you can spot the various places the colours in the CSS file show up.
-
-Now it's time to modify the contents of the CSS pane yourself to change how the HTML looks.
-
-The format of the CSS file is as following
-
-`thingYouWantToStyle { attribute: value; }`
-
-let's take a look at an example in the CSS file
-
-```CSS
-h1 { 
-   color: blue; 
-   background-color: yellow; 
-   border: 1px solid black; 
-} 
-```
-`h1` is the tag that the style will be applied to, see if you can find the h1 tag in the HTML pane. `background-color` is the name of the property (or attribute) we want to change and `yellow` is the value we want to set.
-
-> Note: Don't forget the `;` it's really important!
-
-> Note: Notice that all the attributes we're setting are surrounded by `{` `}`
-
+Try each of the the following styles in your blog css file
 
 ## 1. Text styles
 
