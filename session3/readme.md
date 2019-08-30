@@ -1,6 +1,35 @@
 # CSS Stylings
 
-Try each of the the following styles in your blog css file
+## 0. Before you start
+
+To get started:
+1. Open up https://jsfiddle.net 
+2. Paste the contents of blog_example_with_themes.html into the HTML pane and press run
+3. Paste the contents of style.css into the CSS pane and press run again
+
+Hopefully you noticed what a big difference adding the styles made to how the page looked!  Have a look and see if you can spot the various places the colours in the CSS file show up.
+
+Now it's time to modify the contents of the CSS pane yourself to change how the HTML looks.
+
+The format of the CSS file is as following
+
+`thingYouWantToStyle { attribute-name: value; }`
+
+let's take a look at an example in the CSS file
+
+```CSS
+h1 { 
+   color: blue; 
+   background-color: yellow; 
+   border: 1px solid black; 
+} 
+```
+`h1` is the tag that the style will be applied to, see if you can find the h1 tag in the HTML pane. `background-color` is the name of the property (or attribute) we want to change and `yellow` is the value we want to set.
+
+> Note: Don't forget the `;` it's really important!
+
+> Note: Notice that all the attributes we're setting are surrounded by `{` `}`
+
 
 ## 1. Text styles
 
@@ -24,8 +53,8 @@ rgb
   font-family: arial;
 }`
 
-The browser will only apply a font if it is available on the machine the website is being accessed on. 
-There are only a certain number of fonts that are generally available across all systems and can therefore be used without much worry. 
+The browser will only apply a font if it is available on the computer/phone/tablet the website is being accessed on. 
+There are only a certain number of fonts that are generally available across all devices and can therefore be used without much worry. 
 These are the so-called web safe fonts. Check here for a list: https://www.cssfontstack.com/
 
 You can use font stacks to specify fallbacks if your font is not available:
@@ -36,10 +65,22 @@ You can use font stacks to specify fallbacks if your font is not available:
 
 **font-size**
 
-* In px (pixels)
-* In ems (1em is equal to the font size set on the parent element)
-* In rems (same as ems but using the root element)
-* In % (relative to the parent element)
+There are a couple of different ways to set the font size but for the moment we're going to just be looking at the simplest one which is pixels.  Since there are multiple ways of setting the font size you have to put `px` after the number e.g. `20px;`
+
+Have a got at setting the font size yourself, if you get stuck then look at the example below.
+
+Hint:
+
+Look at the definition of CSS at the top of the page:
+ - The thing you want to style is `p` tags
+ - The attribute you want to set is `font-size`
+ - The value we're setting is `20px`
+
+If you get stuck then you can look at the solution at the bottom of this file or just ask for help! : )
+
+Note: You don't have to include the p { } but every time you can just put the font-size line below something else is another p { } block.
+
+Now try setting the following attributes against the `p` tags and see what they do.  The attribute name is in bold and the possible values are in brackets.  If you get stuck then ask one of the instructors for help!
 
 **font-style** (normal, italic)
 
@@ -49,7 +90,7 @@ You can use font stacks to specify fallbacks if your font is not available:
 
 **text-decoration** (none, underline, overline, line-through)
 
-**text-shadow** (horizontal offset, vertical offset, blur radius, base colour)
+**text-shadow** (horizontal offset in size, vertical offset size, blur radius size, base colour)
 
 `h1 { text-shadow: 4px 4px 5px red; }`
 
@@ -58,6 +99,8 @@ You can use font stacks to specify fallbacks if your font is not available:
 **line-height**
 
 ## 2. List styles
+
+These styles apply to the `ul` and `ol` tags, so don't put them in the `p` blocks, ask one of the instructors if you have any problems with this.
 
 **list-style-type**: Sets the type of bullets to use for the list, for example, square or circle bullets for an unordered list, or numbers, letters or roman numerals for an ordered list.
 
@@ -112,7 +155,7 @@ a:active {
 
 ## 4. Selectors
 
-In the these examples you wil notice that we used some different selectors. Here are the main types of selector you will use. Try them out in your project:
+In the these examples you will notice that we used some different selectors. Here are the main types of selector you will use. Try them out in your project:
 
 **Type selectors** 
 
@@ -198,4 +241,6 @@ h1, h2, h3 {
 There are also different ways of specifying combinations such as matching elements that are descendants of specific elements. For more examples see here:
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors
 
+# Solution to CSS problem
 
+`p { font-size: 20px }`
