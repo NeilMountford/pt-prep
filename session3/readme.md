@@ -13,7 +13,7 @@ Now it's time to modify the contents of the CSS pane yourself to change how the 
 
 The format of the CSS file is as following
 
-`thingYouWantToStyle { attribute: value; }`
+`thingYouWantToStyle { attribute-name: value; }`
 
 let's take a look at an example in the CSS file
 
@@ -65,10 +65,30 @@ You can use font stacks to specify fallbacks if your font is not available:
 
 **font-size**
 
-* In px (pixels)
-* In ems (1em is equal to the font size set on the parent element)
-* In rems (same as ems but using the root element)
-* In % (relative to the parent element)
+There are a couple of different ways to set the font size but for the moment we're going to just be looking at the simplest one which is pixels.  Since there are multiple ways of setting the font size you have to put `px` after the number e.g. `20px;`
+
+Have a got at setting the font size yourself, if you get stuck then look at the example below.
+
+<details>
+<summary>Hint</summary>
+Look at the definition of CSS at the top of the page:
+
+- The thing you want to style is `p` tags
+- The attribute you want to set is `font-size`
+- The value we're setting is `20px`
+</details>
+<details>
+<summary>Solution</summary>
+<code>
+p {
+  font-size: 20px;
+}
+</code>
+
+Note: You don't have to include the p { } but every time you can just put the font-size line below something else is another p { } block.
+</details>
+
+Now try setting the following attributes against the `p` tags and see what they do.  The attribute name is in bold and the possible values are in brackets.  If you get stuck then ask one of the instructors for help!
 
 **font-style** (normal, italic)
 
@@ -78,7 +98,7 @@ You can use font stacks to specify fallbacks if your font is not available:
 
 **text-decoration** (none, underline, overline, line-through)
 
-**text-shadow** (horizontal offset, vertical offset, blur radius, base colour)
+**text-shadow** (horizontal offset in size, vertical offset size, blur radius size, base colour)
 
 `h1 { text-shadow: 4px 4px 5px red; }`
 
