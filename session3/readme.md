@@ -69,21 +69,14 @@ There are a couple of different ways to set the font size but for the moment we'
 
 Have a got at setting the font size yourself, if you get stuck then look at the example below.
 
-<details>
-<summary>Hint</summary>
-Look at the definition of CSS at the top of the page:
+Hint:
 
-- The thing you want to style is `p` tags
-- The attribute you want to set is `font-size`
-- The value we're setting is `20px`
-</details>
-<details>
-<summary>Solution</summary>
-<code>
-p {
-  font-size: 20px;
-}
-</code>
+Look at the definition of CSS at the top of the page:
+ - The thing you want to style is `p` tags
+ - The attribute you want to set is `font-size`
+ - The value we're setting is `20px`
+
+
 
 Note: You don't have to include the p { } but every time you can just put the font-size line below something else is another p { } block.
 </details>
@@ -249,4 +242,6 @@ h1, h2, h3 {
 There are also different ways of specifying combinations such as matching elements that are descendants of specific elements. For more examples see here:
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors
 
+# Solution to CSS problem
 
+`p { font-size: 20px }`
