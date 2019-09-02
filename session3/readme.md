@@ -26,9 +26,9 @@ h1 {
 ```
 `h1` is the tag that the style will be applied to, see if you can find the h1 tag in the HTML pane. `background-color` is the name of the property (or attribute) we want to change and `yellow` is the value we want to set.
 
-Note: Don't forget the `;` it's really important!
+> Note: Don't forget the `;` it's really important!
 
-Note: Notice that all the attributes we're setting are surrounded by `{` `}`
+> Note: Notice that all the attributes we're setting are surrounded by `{` `}`
 
 
 ## 1. Text styles
