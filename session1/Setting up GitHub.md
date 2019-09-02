@@ -26,7 +26,7 @@ Now that you have an account you will need to copy the starting repository we ha
     - If you accidentally close the browser at any point you can find your repository again by going to the [GitHub page](https://github.com/) whilst logged in. You'll see a list of repositories on the left, click the one that has your username in it
 
 ## 3. Use your repository for GitHub pages
-GitHub has built in functionality to use a repository as a webpage and host it for you. By enabling this you will be able to view your blog page on the internet as you develop it.
+GitHub can host a webpage for you. By enabling this you will be able to view your blog page on the internet as you develop it.
 
 1. From your fork of the starter repository, click the "Settings" section near the top
 2. Scroll down to the "GitHub Pages" section
@@ -46,7 +46,7 @@ GitHub lets you edit files in the browser and see the changes after a few minute
 7. In the HTML box, paste the copied text by right clicking inside the box and selecting "Paste", or by pressing Ctrl-V on the keyboard
 8. Press the "Run" button in the top left of the page
 9. You should see the current appearance of your HTML in the bottom right box
-10. In the HTML box, try changing the part where it has `<h1>My blog!</h1>` to have your name in it, e.g. `<h1>Bob's blog!</h1>`
+10. In the HTML box, try changing the part where it has `<h1>My blog!</h1>` to have your name in it, e.g. `<h1>Bob's blog!</h1>`. Be careful to change the contents of the `<h1>` tags and NOT the `<title>` tag!
 11. Press the "Run" button again and you should see your changes in the bottom right box
 12. Once you're happy with the changes, you need to copy all of the text in the HTML box in JSFiddle by highlighting it with the mouse or clicking into the box and pressing Ctrl-A
 13. You should switch back to the GitHub browser tab now and select all of the text within the "Edit file" section either by highlighting it with the mouse, or clicking into the box and pressing Ctrl-A
