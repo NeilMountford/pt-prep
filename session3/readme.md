@@ -49,9 +49,7 @@ rgb
 
 **font-family**
 
-`p {
-  font-family: arial;
-}`
+`p { font-family: arial; }`
 
 The browser will only apply a font if it is available on the computer/phone/tablet the website is being accessed on. 
 There are only a certain number of fonts that are generally available across all devices and can therefore be used without much worry. 
@@ -59,9 +57,7 @@ These are the so-called web safe fonts. Check here for a list: https://www.cssfo
 
 You can use font stacks to specify fallbacks if your font is not available:
 
-`p {
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-}`
+`p { font-family: "Trebuchet MS", Verdana, sans-serif; }`
 
 **font-size**
 
